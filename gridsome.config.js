@@ -17,7 +17,7 @@ module.exports = {
     {
       use: '@gridsome/source-strapi',
       options: {
-        apiURL: 'http://localhost:1337',
+        apiURL: process.env.GRIDSOME_API_URL,
         queryLimit: 1000, // Defaults to 100
         contentTypes: ['post','tag'],
         typeName: 'Strapi', // 默认是Strapi,可修改,下边的模版名称就是这个名字+集合的名字
