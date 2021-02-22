@@ -44,7 +44,7 @@
                         </div>
                         <div class="control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
+                                <label>Phone Number 电话</label>
                                 <input v-model="form.phone" type="tel" class="form-control" placeholder="Phone Number"
                                     id="phone" required
                                     data-validation-required-message="Please enter your phone number.">
